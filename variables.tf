@@ -17,3 +17,7 @@ variable "target_zone_id" {}
 variable "evaluate_target_health" {
   default = "false"
 }
+
+variable "enabled" {
+  default = "true"
+}
